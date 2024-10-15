@@ -10,7 +10,8 @@
 
 ### Commands
 
-> For more information about commands look at the command brief section below.
+> For more information about commands look at the command brief section below. <br />
+> **For notes refer to Documentation.md**
 
 ```
 apt update && apt upgrade -y
