@@ -46,7 +46,7 @@ SERVICE_PASSWORD=$ADMIN_PASSWORD
 
 ## Access The Ova File Here!
 
-Configured Ova for OpenStack [Download Ova]()
+Configured Ova for OpenStack [Download Ova](https://drive.google.com/file/d/1bL7N7ip0Ns-2e1WlpkGWlmTTCYKbJLhs/view?usp=drive_link)
 
 ## Command Briefing
 
