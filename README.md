@@ -40,6 +40,8 @@ SERVICE_PASSWORD=$ADMIN_PASSWORD
 
 ![OpenStack Login Page](/images/login.png)
 <br />
+<br />
+<br />
 ![OpenStack Dashboard Overview](/images/openstack.png)
 
 ## Access The Ova File Here!
