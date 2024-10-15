@@ -64,6 +64,8 @@ Configured Ova for OpenStack [Download Ova]()
 
 `sudo -u stack -i`
 
-> `sudo` run command as another user (default superuser). <br /> > `-u stack` user you want to switch to, stack in this case. <br />
+> `sudo` run command as another user (default superuser). <br />
+
+> `-u stack` user you want to switch to, stack in this case. <br />
 
 > `-i` open interactive shell. <br />
