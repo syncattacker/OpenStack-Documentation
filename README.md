@@ -10,8 +10,7 @@
 
 ### Commands
 
-> For more information about commands look at the command brief section below. <br />
-> **For notes refer to Documentation.md**
+> For more information about commands look at the command brief section below. <br /> > **For notes refer to [Documentation.md](https://github.com/syncattacker/OpenStack-Documentation/blob/main/Documentation.md)**
 
 ```
 apt update && apt upgrade -y
