@@ -52,7 +52,7 @@ _Definition_ : Handles the object storage, or unstructured data like images, aud
 
 #### Neutron
 
-_Definition_ : Handles the networking such as routers, load balancers (AWs VPC).
+_Definition_ : Handles the networking such as routers, load balancers (AWS VPC).
 
 #### Glace
 
