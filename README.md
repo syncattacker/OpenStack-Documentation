@@ -10,10 +10,10 @@
 
 ### Commands
 
-> For more information about commands look at the command brief section below. <br />
-> **For notes refer to [Documentation.md](https://github.com/syncattacker/OpenStack-Documentation/blob/main/Documentation.md)**
+> For more information about commands look at the command brief section below. <br /> > **For notes refer to [Documentation.md](https://github.com/syncattacker/OpenStack-Documentation/blob/main/Documentation.md)**
 
 ```
+PASSWORD offsec : kali
 apt update && apt upgrade -y
 apt install net-tools -y
 apt install git -y
