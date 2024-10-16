@@ -104,3 +104,27 @@ export OS_PROJECT_NAME=demo
 ![Web Console](/images/glance-cli/ui-images.png)
 
 ### Common Issues & Resolves
+
+> This section deals with some of the most common issues that one can encounter while uploading images via Web or CLI are listed here with the resolves.
+
+1. Missing value auth-url required for auth plugin password.
+
+> _Resolve_ : Export the auth configurations given above.
+
+2. Error while uploading via Web Interface.
+
+> _Resolve_ : Make sure your service are running and the image format is one from the available ones. If everything is well try running `./stack.sh` once more.
+
+3. Permission denied to the folder /opt/stack/devstack
+
+> _Resolve_ : Give required permissions to the folder and sub-folders
+
+**INFO : If you encountered some other errors while installing raise a issue in the [Issues Section](https://github.com/syncattacker/OpenStack-Documentation/issues). I will be happy to resolve and provide support.**
+
+### REFERENCES & OFFICIAL DOCUMENTATION
+
+- [OFFICIAL GLANCE DOCUMENTATION](https://docs.openstack.org/glance/latest/)
+- [OPENSTACK OFFICIAL WEBSITE](https://www.openstack.org/)
+- [OPENSTACK AUTHENTICATION](https://docs.openstack.org/python-openstackclient/pike/cli/authentication.html)
+- [JAMMY IMG FILE](https://cloud-images.ubuntu.com/jammy/20241002/jammy-server-cloudimg-s390x.img)
+- [MORE UBUNTU CLOUD IMAGES](https://cloud-images.ubuntu.com/)
