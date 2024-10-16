@@ -51,3 +51,15 @@ _Definition_ : **GLANCE** is the image service component that manages the Virtua
 6. Once the image is created it will be visible in the web console.
 
 ![Image Uploaded](/images/glance-gui/created-image.png)
+
+> **IMPORTANT : To download and convert your image file into supported format of GLANCE GUI in this case .iso use the commands below.**
+
+`wget https://cloud-images.ubuntu.com/jammy/20241002/jammy-server-cloudimg-s390x.img`
+
+> To download the .img file from ubuntu cloud web service
+
+`dd if=jammy-server-cloudimg-s390x.img of=ubuntu.iso`
+
+`dd if=<your-image-file.img of=<your-output-file.iso>`
+
+> To convert your .img into .iso
