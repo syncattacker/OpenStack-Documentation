@@ -60,6 +60,6 @@ _Definition_ : **GLANCE** is the image service component that manages the Virtua
 
 `dd if=jammy-server-cloudimg-s390x.img of=ubuntu.iso`
 
-`dd if=<your-image-file.img of=<your-output-file.iso>`
+`dd if=<your-image-file.img> of=<your-output-file.iso>`
 
 > To convert your .img into .iso
