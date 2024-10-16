@@ -60,6 +60,47 @@ _Definition_ : **GLANCE** is the image service component that manages the Virtua
 
 `dd if=jammy-server-cloudimg-s390x.img of=ubuntu.iso`
 
-`dd if=<your-image-file.img> of=<your-output-file.iso>`
+`dd if=<your-image-file.img of=<your-output-file.iso>`
 
 > To convert your .img into .iso
+
+### Uploading Images via OPENSTACK Command Line Utility
+
+> Open Stack offers it's command line utility to manage images, VMs and other service using the command line. In this section we will use the command line utility to upload and list the images.
+
+##### STEPS
+
+1. Export the auth configurations.
+
+```
+export OS_IDENTITY_API_VERSION=3
+export OS_AUTH_URL=http://localhost/identity
+export OS_DEFAULT_DOMAIN=default
+export OS_USERNAME=admin
+export OS_PASSWORD=admin
+export OS_PROJECT_NAME=demo
+```
+
+![Export Authentication Configurations](/images/glance-cli/export.png)
+
+2. Follow the below command to upload your image via Command Line Utility.
+
+`openstack image create "SERVER" --file jammy-server-cloudimg-s390x.img --disk-format iso --container-format bare --public --unprotected`
+
+![Image Upload via CLI](/images/glance-cli/cli-upload.png)
+
+3. If the image is successfully updated your terminal will recieve the information about the image (Refer the image below).
+
+![Image Uploaded Success](/images/glance-cli/upload-success.png)
+
+4. Check whether the image is uploaded via Command Line Utility
+
+`openstack image list`
+
+![Image Listing via CLI](/images/glance-cli/cli-images.png)
+
+5. The same is updated on the Web Console.
+
+![Web Console](/images/glance-cli/ui-images.png)
+
+### Common Issues & Resolves
